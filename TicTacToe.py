@@ -14,6 +14,7 @@ class TicTacToe:
     self.n=3
     self.board=[[None for i in range(self.n)] for j in range(self.n)]
     self.xo=True
+    self.display()
     
   # This method has 3 major steps to it:
   #     1. Check for incorrect inputs
@@ -57,7 +58,7 @@ class TicTacToe:
 
     ### Second Step
     self.board[row][column]=symbol
-    #self.display()
+    self.display()
 
     ### Third Step
     if self.checkRow() or self.checkColumn() or self.checkDiagonal():
