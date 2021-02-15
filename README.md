@@ -6,4 +6,4 @@
  
 # TicTacToe_test.py
  This file contains the all the unit tests that cater various scenarios in a TicTacToe game.
- An auto-test workflow has been setup on all commits made to the TicTacToe.py file
+ An auto-test workflow has been setup on all commits made to the repository
