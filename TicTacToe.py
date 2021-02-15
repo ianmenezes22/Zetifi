@@ -45,6 +45,7 @@ class TicTacToe:
       raise Exception("It's o's turn")
 
     self.board[row][column]=symbol
+    #self.display()
 
     if self.checkRow() or self.checkColumn() or self.checkDiagonal():
       self.board=None
